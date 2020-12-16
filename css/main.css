@@ -61,32 +61,34 @@ html {
 
 }
 
-@media (prefers-reduced-motion) {
-
-  .gear {
-    animation: none;
-  }
-
-}
-
-@media (prefers-color-scheme: dark) {
-
-  body {
-    background-color: #222;
-  }
-
-  .banner {
-    opacity: .6;
-  }
-
-}
-
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
  * =============
- * Write your “prefers” media queries here, between these two `stylelint` comments.
- * Unfortunately, Markbot, is a little too old to understand them. :(
+ @media (prefers-reduced-motion) {
+
+   .gear {
+     animation: none;
+   }
+
+ }
+
+ @media (prefers-color-scheme: dark) {
+
+   body {
+     background-color: #222;
+   }
+
+   .banner {
+     opacity: .6;
+   }
+
+   .banner h1 {
+     color: #f1f1f1;
+     opacity: 1;
+   }
+
+ }
  * =============
  */
 
