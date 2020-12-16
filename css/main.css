@@ -61,6 +61,18 @@ html {
 
 }
 
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme) {
+
+}
+
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
